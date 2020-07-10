@@ -68,7 +68,7 @@ dtreg.fit(X_train, Y_train)
 
 Ydt_pred = dtreg.predict(X_test)
 
-print("Accuracy with Decision Tree Classifier:")
+print("Accuracy with Decision Tree Regressor:")
 print(r2_score(Y_test, Ydt_pred))
 print(cross_val_score(dtreg, X, Y.ravel(), cv=5))
 print()

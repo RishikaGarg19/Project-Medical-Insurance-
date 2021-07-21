@@ -59,7 +59,7 @@ print()
 print()
 
 
-#--------------------------------------DECISION TREE CLASSIFIER--------------------------------------------
+#--------------------------------------DECISION TREE REGRESSOR--------------------------------------------
 
 from sklearn.tree import DecisionTreeRegressor
 dtreg = DecisionTreeRegressor(max_leaf_nodes=10)
